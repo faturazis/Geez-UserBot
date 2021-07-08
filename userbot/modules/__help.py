@@ -20,9 +20,9 @@ async def yardim(event):
             await event.delete()
         else:
             await event.edit(
-                "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan.`"
+                "`Botnya tidak berfungsi! Bot Token dan Username belum di-isi/salah keless. gabisa jadinya deh.`"
             )
     except Exception:
         return await event.edit(
-            "`Anda tidak dapat mengirim hasil sebaris dalam obrolan ini (disebabkan oleh SendInlineBotResultRequest)`"
+            "`Inline mode di bot belum aktif, aktifin dulu biar bisa cuk. (disebabkan oleh SendInlineBotResultRequest)`"
         )
