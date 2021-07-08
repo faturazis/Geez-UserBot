@@ -464,7 +464,7 @@ with bot:
                             Button.url("🚨 Group support",
                                        "t.me/GeezSupportGroup")],
                         [Button.url("👤 Development",
-                                    "t.me/VckyouuBitch")],
+                                    "t.me/RedTure")],
                     ]
                 )
 
@@ -509,10 +509,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-                                "https://github.com/vckyou/Geez-Userbot"),
+                                "https://github.com/faturazis/Geez-Userbot"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/Vckyouubitch")]],
+                                "t.me/RedTure")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
